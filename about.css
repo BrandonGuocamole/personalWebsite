@@ -1,0 +1,49 @@
+.aboutintro{
+    text-align: center;
+    width: 50%;
+    margin: 2% auto;
+}
+
+.arrow {
+    border: solid #1D3557;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.about-image{
+    background: #F1FAEE;
+    width: 20vw;
+    height: 20vw;
+    margin: 8vh auto;
+    border: 2px solid #1D3557;
+    border-radius: 20px;
+}
+
+.about-image--info {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width:25vw;
+    height:50vh;
+    left: 10vw;
+}
+
+img{
+    width: 20vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+ul{
+    position:fixed;
+}

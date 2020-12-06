@@ -1,0 +1,14 @@
+.contact-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: transparent;
+    padding: 10px;
+    margin: 0 auto;
+    width: 30vw;
+    font-size: 24px;
+    grid-row-gap: 5vh;
+}
+.contact-info{
+    margin: auto 0;
+}
