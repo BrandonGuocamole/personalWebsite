@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="contact.css">
     <script src="https://kit.fontawesome.com/5f5bb1c58f.js" crossorigin="anonymous"></script>
+    <script src="global.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Brandon Guo | Contact</title>
 </head>
 <body>
-<nav role="navigation">
+<div style="position:fixed; left:0%; top:0%;z-index: 2;">
+    <nav role="navigation">
     <div id="menuToggle">
         <input type="checkbox" />
         <span></span>
@@ -27,9 +29,11 @@
         </ul>
     </div>
 </nav>
+</div>
 <a href="index.html"><img id="logo" src="personallogo.png"></a>
-<div class="welcome">Contact Me.</div>
-<div style="height: 10vh; margin: 0 auto;"></div>
+<div class="welcome"><span id="welcome">Contact Me.</span></div>
+<hr id="underline">
+<div style="height: 7vh; margin: 0 auto;"></div>
 <div class="contact-grid">
     <div class="contact-icon">
         <a class="social-link" href="http://linkedin.com/in/guobrandon">
@@ -55,7 +59,7 @@
     <div class="contact-info">
         Email me
     </div>
-    <div class="contact-icon">
+    <div class="contact-icon" style="margin-right:2.5vw;">
         <a class="social-link" href="https://cash.app/$BrandonGuocamole">
             <i class="fas fa-dollar-sign fa-3x"></i>
         </a>
@@ -64,5 +68,8 @@
         Send me cash
     </div>
 </div>
+<script>
+    setWidth("underline", getWidth("welcome"));
+</script>
 </body>
 </html>

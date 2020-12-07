@@ -9,31 +9,36 @@
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/5f5bb1c58f.js" crossorigin="anonymous"></script>
+    <script src="global.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Brandon Guo | About</title>
 </head>
 <body>
-<nav role="navigation">
-    <div id="menuToggle">
-        <input type="checkbox" />
-        <span></span>
-        <span></span>
-        <span></span>
-        <ul id="menu">
-            <li><a class="other-page" href="index.html">home.</a></li>
-            <li><a id="current-page">about.</a></li>
-            <li><a class="other-page" href="resumepage.html">resume.</a></li>
-            <li><a class="other-page" href="projects.html">projects.</a></li>
-            <li><a class="other-page" href="contact.html">contact.</a></li>
-        </ul>
-    </div>
-</nav>
+<div style="position:fixed; left:0%; top:0%;z-index: 2;">
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <li><a class="other-page" href="index.html">home.</a></li>
+                <li><a id="current-page">about.</a></li>
+                <li><a class="other-page" href="resumepage.html">resume.</a></li>
+                <li><a class="other-page" href="projects.html">projects.</a></li>
+                <li><a class="other-page" href="contact.html">contact.</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
 <script>
     AOS.init();
 </script>
-<a href="index.html"><img style="width:60px;height:60px;" id="logo" src="personallogo.png"></a>
-<div class="welcome">About Me and My Experiences.</div>
+<a href="index.html"><img id="logo" src="personallogo.png"></a>
+<div class="welcome"><span id="welcome">About Me and My Experiences.</span></div>
+<hr id="underline">
+
 <br>
 <div class="aboutintro">
     I am an undergraduate student studying Electrical Engineering and Computer Sciences with a dual degree in Business Administration through the Management, Entrepreneurship, & Technology Program at UC Berkeley.
@@ -199,14 +204,14 @@
         </div>
     </div>
 </div>
-<div style="font-size:36px; text-align:center; margin: 0% auto; margin-top: 3%;">Technical Experiences</div>>
+<div style="font-size:36px; text-align:center; margin: 0% auto; margin-top: 3%;">Technical Experiences</div>
 <div style="margin-top:5vh;" class="about-image" data-aos="fade-up" id="trigger-2">
     <img src="./logo/metrobotlogo.png">
 </div>
 <div class="about-image" data-aos="fade-up" id="trigger-3">
     <img src="./logo/atlasinstitute.png">
 </div>
-<div style="font-size:36px; text-align:center; margin: 0% auto; margin-top: 10%;">Leadership & Activities</div>>
+<div style="font-size:36px; text-align:center; margin: 0% auto; margin-top: 10%;">Leadership & Activities</div>
 <div style="margin-top:5vh;" class="about-image" data-aos="fade-up" id="trigger-4">
     <img src="./logo/nsda.png">
 </div>
@@ -224,5 +229,8 @@
     <img src="./logo/metlogo.png">
 </div>
 <div style="margin: 0vh auto;height:35vh"></div>
+<script>
+    setWidth("underline", getWidth("welcome"));
+</script>
 </body>
 </html>

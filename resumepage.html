@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="resume.css">
     <link rel="stylesheet" href="home.css">
     <script src="https://kit.fontawesome.com/5f5bb1c58f.js" crossorigin="anonymous"></script>
+    <script src="global.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Brandon Guo | Resume</title>
 </head>
 <body>
+<div style="position:fixed; left:0%; top:0%;z-index: 2;">
 <nav role="navigation">
     <div id="menuToggle">
         <input type="checkbox" />
@@ -27,8 +29,13 @@
         </ul>
     </div>
 </nav>
+</div>
 <a href="index.html"><img id="logo" src="personallogo.png"></a>
-<div class="welcome">Access my Résumé in PDF Form.</div>
+<div class="welcome"><span id="welcome">Access my Résumé in PDF Form.</span></div>
+<hr id="underline">
 <iframe src="personal_resume.pdf" width="60%" height="700px"></iframe>
+<script>
+    setWidth("underline", getWidth("welcome"));
+</script>
 </body>
 </html>

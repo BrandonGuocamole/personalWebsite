@@ -26,10 +26,13 @@
     height: 25vw;
     margin: 25vh;
     /*right:20vw;*/
-    border: 1px solid #1D3557;
+    border: 1px solid #e1f3ea;
     margin-left:15vw;
     border-radius: 20px;
     z-index: 0;
+    -moz-box-shadow:    inset 0 0 10px #e1f3ea;
+    -webkit-box-shadow: inset 0 0 10px #e1f3ea;
+    box-shadow:         inset 0 0 10px #e1f3ea;
 }
 
 .about-image--info {
@@ -53,9 +56,14 @@ img{
     display: block;
     border-radius: 20px;
     margin: 0 auto;
+    z-index:0;
 }
 
 .scrollbox{
     width:90%;
     margin: 0% auto;
+}
+
+nav{
+    z-index: 2;
 }

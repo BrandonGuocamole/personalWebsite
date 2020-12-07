@@ -5,8 +5,8 @@
     background-color: transparent;
     padding: 10px;
     margin: 0 auto;
-    width: 30vw;
-    font-size: 24px;
+    width: 80vw;
+    font-size: 20px;
     grid-row-gap: 5vh;
 }
 .contact-info{
@@ -14,5 +14,12 @@
 }
 
 .contact-icon{
-    margin:0 auto;
+    /*margin: 0 auto;*/
+    margin-left:auto;
+    margin-right:2vw;
+
+}
+
+.social-link{
+
 }

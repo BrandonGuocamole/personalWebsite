@@ -60,11 +60,11 @@ li a:hover{
 }
 
 #logo{
-    position: ABSOLUTE;
-    top: 2vh;
+    position: fixed;
+    top: 1vh;
     right: 2vh;
-    height:60px;
-    width:60px;
+    height:40px;
+    width:40px;
 }
 
 ::-webkit-scrollbar {
@@ -203,7 +203,9 @@ li a:hover{
     background: #1D3557;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
+    -webkit-box-shadow: 3px 3px 3px 4px #e1f3ea;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 3px 4px #e1f3ea;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 3px 4px #e1f3ea;
 
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
