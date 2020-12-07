@@ -1,7 +1,9 @@
 .aboutintro{
     text-align: center;
-    width: 75%;
+    font-size:20px;
+    width: 70%;
     margin: 2% auto;
+    margin-bottom: 5%;
 }
 
 .arrow {
