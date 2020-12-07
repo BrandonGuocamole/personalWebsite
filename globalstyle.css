@@ -60,11 +60,11 @@ li a:hover{
 }
 
 #logo{
-    position: fixed;
+    position: ABSOLUTE;
     top: 2vh;
     right: 2vh;
-    height:40px;
-    width:40px;
+    height:60px;
+    width:60px;
 }
 
 ::-webkit-scrollbar {
