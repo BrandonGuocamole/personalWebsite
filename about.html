@@ -14,6 +14,21 @@
     <title>Brandon Guo | About</title>
 </head>
 <body>
+<nav role="navigation">
+    <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+            <li><a class="other-page" href="index.html">home.</a></li>
+            <li><a id="current-page">about.</a></li>
+            <li><a class="other-page" href="resumepage.html">resume.</a></li>
+            <li><a class="other-page" href="projects.html">projects.</a></li>
+            <li><a class="other-page" href="contact.html">contact.</a></li>
+        </ul>
+    </div>
+</nav>
 <script>
     AOS.init();
 </script>
@@ -205,24 +220,5 @@
     <img src="./logo/metlogo.png">
 </div>
 <div style="margin: 0vh auto;height:35vh"></div>
-<ul id="navbar">
-    <li><a class="other-page" href="index.html">home.</a></li>
-    <li><a id="current-page">about.</a></li>
-    <li><a class="other-page" href="resumepage.html">resume.</a></li>
-    <li><a class="other-page" href="projects.html">projects.</a></li>
-    <li><a class="other-page" href="contact.html">contact.</a></li>
-</ul>
-<script>
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navbar").style.opacity = "1";
-        } else {
-            document.getElementById("navbar").style.opacity = "0";
-        }
-        prevScrollpos = currentScrollPos;
-    }
-</script>
 </body>
 </html>

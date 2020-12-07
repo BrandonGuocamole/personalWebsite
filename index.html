@@ -8,11 +8,26 @@
     <script src="global.js"></script>
     <script src="https://kit.fontawesome.com/5f5bb1c58f.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brandon Guo | Home</title>
 </head>
 <body>
 <img id="logo" src="personallogo.png">
+<nav role="navigation">
+    <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+            <li><a id="current-page">home.</a></li>
+            <li><a class="other-page" href="about.html">about.</a></li>
+            <li><a class="other-page" href="resumepage.html">resume.</a></li>
+            <li><a class="other-page" href="projects.html">projects.</a></li>
+            <li><a class="other-page" href="contact.html">contact.</a></li>
+        </ul>
+    </div>
+</nav>
 <div class="welcome">Welcome to My Corner of the Internet.</div>
 <div class="grid-container">
     <div class="grid-item" style="font-style: italic; font-weight: normal; font-size: 18px;">My name is</div>
@@ -24,7 +39,7 @@
 <hr id="underline">
 <div style="text-align: center">
     <div class="tagline" style="display:inline-block;">
-        <div style="display:inline-block" class="typewriter">programmer, stats nerd, business enthusiast, and aspiring polymath.</div>
+        <div style="display:inline-block; font-size:2vw;" class="typewriter">programmer, stats nerd, business enthusiast, and aspiring polymath.</div>
     </div>
 </div>
 <div class="link-container">
@@ -44,13 +59,14 @@
         </a>
     </div>
 </div>
-<ul>
-    <li><a id="current-page">home.</a></li>
-    <li><a class="other-page" href="about.html">about.</a></li>
-    <li><a class="other-page" href="resumepage.html">resume.</a></li>
-    <li><a class="other-page" href="projects.html">projects.</a></li>
-    <li><a class="other-page" href="contact.html">contact.</a></li>
-</ul>
+<!--<ul>-->
+<!--    <li><a id="current-page">home.</a></li>-->
+<!--    <li><a class="other-page" href="about.html">about.</a></li>-->
+<!--    <li><a class="other-page" href="resumepage.html">resume.</a></li>-->
+<!--    <li><a class="other-page" href="projects.html">projects.</a></li>-->
+<!--    <li><a class="other-page" href="contact.html">contact.</a></li>-->
+<!--</ul>-->
+
 <script>
     setWidth("underline", getWidth("name"));
 </script>
