@@ -6,7 +6,7 @@
     font-weight: 600;
 }
 .grid-container{
-    margin-top: 4%;
+    margin-top: 5vh;
     display: grid;
     grid-row-gap: 30px;
     grid-template-columns: auto;
