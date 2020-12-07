@@ -18,11 +18,16 @@
 
 .about-image{
     background: #F1FAEE;
-    width: 20vw;
-    height: 20vw;
-    margin: 8vh auto;
+    display: block;
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    margin: 25vh;
+    /*right:20vw;*/
     border: 2px solid #1D3557;
+    margin-left:15vw;
     border-radius: 20px;
+    z-index: 0;
 }
 
 .about-image--info {
@@ -30,20 +35,25 @@
     position: fixed;
     top: 0;
     bottom: 0;
-    margin: auto;
-    width:25vw;
+    margin: auto auto;
+    width:40vw;
     height:50vh;
-    left: 10vw;
+    right: 10vw;
+    font-size: 14px;
+    overflow: auto;
+    max-height: 96%;
+    z-index: 1;
+    overflow-x:hidden;
 }
 
 img{
-    width: 20vw;
+    width: 100%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 20px;
+    margin: 0 auto;
 }
 
-ul{
-    position:fixed;
+.scrollbox{
+    width:90%;
+    margin: 0% auto;
 }
