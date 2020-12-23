@@ -20,6 +20,25 @@
 
 }
 
-.social-link{
+a.left-underline {
+    position: relative;
+    text-decoration: none;
+    color: #1D3557;
+}
 
+a.left-underline:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -.5vh;
+    left: 0;
+    background-color: #E63946;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+a.left-underline:hover:before {
+    visibility: visible;
+    width: 100%;
 }

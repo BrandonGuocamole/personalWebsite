@@ -29,7 +29,7 @@ body {
     padding: 10px;
 }
 
-ul {
+#menu {
     position: absolute;
     right: 5vw;
     top: 30%;
@@ -39,7 +39,7 @@ ul {
     transition: 1s;
 }
 
-li a {
+.other-page {
     width: 80px;
     display: block;
     color: #F1FAEE;
@@ -51,6 +51,12 @@ li a {
 }
 
 #current-page{
+    width: 80px;
+    display: block;
+    padding: 20px 16px;
+    text-decoration: none;
+    background-color: #1D3557;
+    transition: .3s;
     color: #E63946;
     font-weight: 600;
 }

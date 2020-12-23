@@ -67,3 +67,20 @@ img{
 nav{
     z-index: 2;
 }
+
+a{
+    text-decoration: none;
+    color: #1D3557;
+}
+
+#course-list{
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    list-style-position: inside;
+    padding-inline-start: 0px;
+}
+
+li{
+    margin-top: .5vh;
+}
