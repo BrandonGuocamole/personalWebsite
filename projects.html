@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="projects.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="globalstyle.css">
     <link rel="stylesheet" href="resume.css">
@@ -28,31 +30,50 @@
     <meta property="twitter:description" content="Brandon Guo is a programmer, stats nerd, aspiring polymath, and freshman at UC Berkeley studying EECS + Business Administration.">
     <meta property="twitter:image" content="./logo/highreslogo.png">
 </head>
+
 <body>
-<div style="position:fixed; left:0%; top:0%;z-index: 2;">
-<nav role="navigation">
-    <div id="menuToggle">
-        <input type="checkbox" />
-        <span></span>
-        <span></span>
-        <span></span>
-        <ul id="menu">
-            <li><a class="other-page" href="index.html">home.</a></li>
-            <li><a class="other-page" href="about.html">about.</a></li>
-            <li><a class="other-page" href="resumepage.html">resume.</a></li>
-            <li><a id="current-page">projects.</a></li>
-            <li><a class="other-page" href="contact.html">contact.</a></li>
-        </ul>
+    <div style="position:fixed; left:0%; top:0%;z-index: 2;">
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <li><a class="other-page" href="index.html">home.</a></li>
+                    <li><a class="other-page" href="about.html">about.</a></li>
+                    <li><a class="other-page" href="resumepage.html">resume.</a></li>
+                    <li><a id="current-page">projects.</a></li>
+                    <li><a class="other-page" href="contact.html">contact.</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
-</nav>
-</div>
-<a href="index.html"><img id="logo" src="personallogo.png"></a>
-<div class="welcome"><span id="welcome">My Projects.</span></div>
-<hr id="underline">
-<br><br>
-<div style="text-align: center; font-size: 24px;">Currently under construction. Check back soon!</div>
-<script>
-    setWidth("underline", getWidth("welcome"));
-</script>
+    <a href="index.html"><img id="logo" src="personallogo.png"></a>
+    <div class="welcome"><span id="welcome">My Projects.</span></div>
+    <hr id="underline">
+    <br><br>
+    <div class='card-collection'>
+        <div class='project-card'>
+            <br><span style='font-size: 24px; color: #1D3557; margin-top: 20px;'>M.E.T. Marketing Website</span>
+            <a href="https://met-marketing.herokuapp.com/">
+                <image src='./marketingsite.gif' class='project-image'></image>
+            </a>
+            <br>
+            <span style='width: 80%; margin-left: auto; margin-right: auto;font-weight:300;'>
+                A site built in React for prospective students and employers to browse video interviews of M.E.T. students and discover other program related media.
+            </span>
+            <a class='github-link' style=' margin: 3% auto;' href="https://github.com/BrandonGuocamole/met-marketing">
+                <i class="link-icon fab fa-github fa-3x"></i>
+            </a>
+            <!-- <span style='display:flex; justify-content: center;'>
+                
+            </span> -->
+        </div>
+    </div>
+    <script>
+        setWidth("underline", getWidth("welcome"));
+    </script>
 </body>
+
 </html>
