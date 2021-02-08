@@ -10,7 +10,10 @@
     height: auto;
     box-shadow: 15px 15px 5px #e1f3ea;
     transition: font-size 0.2s, color 0.5s 0.2s;
-    color: #F1FAEE
+    color: #F1FAEE;
+    margin: 2% 2%;
+    align-self: flex-start;
+    max-width: 80vw;
 }
 
 .project-card:hover {
@@ -27,6 +30,7 @@
 .card-collection {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .link-icon {
