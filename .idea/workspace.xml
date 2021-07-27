@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea5b7420-71e6-486a-9bc7-a6ccdb21e569" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/logo/faxxlogo.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/personal_resume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +39,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/logo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\brand\WebstormProjects\personalWebsite\logo" />
       <recent name="C:\Users\brand\WebstormProjects\personalWebsite" />
+      <recent name="C:\Users\brand\WebstormProjects\personalWebsite\logo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\brand\WebstormProjects\personalWebsite" />
@@ -72,7 +74,10 @@
       <workItem from="1612764968929" duration="1827000" />
       <workItem from="1615190336048" duration="96000" />
       <workItem from="1615190466628" duration="4976000" />
-      <workItem from="1620380485672" duration="763000" />
+      <workItem from="1620380485672" duration="1475000" />
+      <workItem from="1622695699437" duration="173000" />
+      <workItem from="1623965134696" duration="791000" />
+      <workItem from="1627364807561" duration="360000" />
     </task>
     <servers />
   </component>
